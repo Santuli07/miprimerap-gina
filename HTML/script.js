@@ -14,7 +14,7 @@ function validateForm() {
     const email = emailInput.value; 
 
 
-    if (¡validateEmail(email)) {
+    if (validateEmail(email)) {
         alert('Por favor ingrese un correo electrónico válido.');
     } else {
         alert('Correo electrónico enviado correctamente.');
